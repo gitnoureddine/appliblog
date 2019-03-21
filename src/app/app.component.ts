@@ -53,6 +53,6 @@ export class AppComponent {
 
   isAuth = false;
 
-  constructor(){  }
+  constructor() {  }
 
 }
