@@ -1,0 +1,13 @@
+<div [ngClass]= "{'group-item': true,
+'group-item.success': green,
+'group-item.danger': red}">
+  <div class="row">
+    <h1> Posts</h1>
+    <div class="col-xs-12">
+      <ul class="list-group">
+        <app-posts  *ngFor="let post of posts" [posts_title]="post.title" [post_content]="post.content"></app-posts>
+      </ul>
+    </div>
+
+  </div>
+</div>
