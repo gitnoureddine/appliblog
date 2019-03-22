@@ -14,7 +14,7 @@
 'list-group-item-danger': loveIts < 0}">
   <!-- <div style="width:20px;height:20px;background-color:red" *ngIf="appareil_status==='éteint'"></div>  ngif affiche un component  -->
   <!-- <h4 [ngStyle]="{'color': getColor()}"> Appereil : {{ appareil_name }} | Status : {{ getStatusAppareil_name() }}</h4> -->
-  <h1 [ngStyle]="{'color': green}"> Post : {{ post_title }} </h1>
+  <h1 [ngStyle]="{'color': green}"> {{ post_title }} </h1>
   <h4 [ngStyle]="{'color': green}"> {{ post_content }} </h4>
   <button class="greenfond"  type="button" [ngStyle]="{'font-size': 5, 'font-weight': 'bold'}"   (click)="compteurLoveit()">Love it</button>
   <button class="redfond" type="button" [ngStyle]="{'font-size': 5, 'font-weight': 'bold'}"  (click)="compteurNotLoveit()">Don't love it</button>

@@ -8,7 +8,7 @@ import { post } from '../../../node_modules/@types/selenium-webdriver/http';
 })
 export class PostsComponent implements OnInit {
   // tslint:disable-next-line:variable-name
-  @Input() posts_title: string;
+  @Input() created_date: string;
   // tslint:disable-next-line:variable-name
   @Input() post_title: string;
   // tslint:disable-next-line:variable-name
