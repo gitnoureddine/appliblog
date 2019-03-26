@@ -8,7 +8,9 @@ import { post } from '../../../node_modules/@types/selenium-webdriver/http';
 })
 export class PostsComponent implements OnInit {
   // tslint:disable-next-line:variable-name
-  @Input() created_date: string;
+  @Input() created_date: Date;
+  @Input()  toto_date: Date;
+
   // tslint:disable-next-line:variable-name
   @Input() post_title: string;
   // tslint:disable-next-line:variable-name
@@ -30,7 +32,13 @@ export class PostsComponent implements OnInit {
   ngOnInit() {
   }
 
+date_du_jour() {
+  this.toto_date = this.created_date;
+
+}
+
   compteurLoveit() {
+   this.date_du_jour();
    this.loveIts = this.loveIts + 1;
   //  console.log(this.loveIts);
    if (this.loveIts > 0 ) {
@@ -41,6 +49,7 @@ export class PostsComponent implements OnInit {
   }
 
   compteurNotLoveit() {
+    this.date_du_jour();
     this.loveIts = this.loveIts - 1;
     // console.log(this.loveIts);
     if (this.loveIts > 0 ) {

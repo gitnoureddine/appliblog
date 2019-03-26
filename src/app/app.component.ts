@@ -26,28 +26,28 @@ export class AppComponent {
       // tslint:disable-next-line:max-line-length
       content: 'Bonus : créez un type pour les post, appelé Post, afin de rendre votre code plus lisible.  Vous pouvez même y intégrer un constructeur qui attribue automatiquement la date !',
       loveIts: '1',
-      created_at: Date
+      created_at: new Date()
     },
     {
       title: 'Mon Deuxième post' ,
       // tslint:disable-next-line:max-line-length
       content: 'Bonus : créez un type pour les post, appelé Post, afin de rendre votre code plus lisible.  Vous pouvez même y intégrer un constructeur qui attribue automatiquement la date !',
       loveIts: '0',
-      created_at: Date
+      created_at: new Date()
     },
     {
       title: 'Encore un post' ,
       // tslint:disable-next-line:max-line-length
       content: 'Bonus : créez un type pour les post, appelé Post, afin de rendre votre code plus lisible.  Vous pouvez même y intégrer un constructeur qui attribue automatiquement la date !',
       loveIts: '3',
-      created_at: Date
+      created_at: new Date()
     },
     {
       title: 'Encore un post' ,
       // tslint:disable-next-line:max-line-length
       content: 'Bonus : créez un type pour les post, appelé Post, afin de rendre votre code plus lisible.  Vous pouvez même y intégrer un constructeur qui attribue automatiquement la date !',
       loveIts: '3',
-      created_at: Date
+      created_at: new Date()
     },
   ];
 
